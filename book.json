@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "uml",
+        "collapsible-chapters",
+        "github",
+        "copy-code-button",
+        "ga",
+        "hints"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "http://github.com/demograph"
+        },
+        "ga" : {
+            "token": "UA-141209187-1",
+            "configuration": {
+                "cookieDomain": "localhost"
+            }
+        }
+    }
+}
