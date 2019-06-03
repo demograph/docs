@@ -1,6 +1,6 @@
 
 ## Open Data Infrastructure
-* [Introduction](README.md)
+<!-- * [Index](index.md) -->
 * [Motivation](chapters/motivation.md)
 * [Goals & Ambitions](chapters/ambitions.md)
 * [Requirements](chapters/requirements.md)

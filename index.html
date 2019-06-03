@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <style>
+            .iframe-container {
+                overflow: hidden;
+                padding-top: 100%;
+                position: relative;
+            }
+            
+            .iframe-container iframe {
+                border: 0;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 1px;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-wrapper deep-purple darken-4">
+                <!-- <a href="#" class="brand-logo">Logo</a> -->
+                <ul id="nav-mobile" class="right">
+                    <li><a href="webmesh/_book/index.html" target="gitbook">WebMesh</a></li>
+                    <li><a href="odin/_book/index.html" target="gitbook">Odin</a></li>
+                    <li><a href="demograph/_book/index.html" target="gitbook">Demograph</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="iframe-container">
+            <iframe class="main" src="odin/_book/index.html" name="gitbook" \>
+        </div>
+    </body>
+    
+</html>

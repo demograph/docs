@@ -1,11 +1,9 @@
 {
     "plugins": [
         "uml",
-        "collapsible-chapters",
         "github",
         "copy-code-button",
-        "ga",
-        "hints"
+        "ga"
     ],
     "pluginsConfig": {
         "github": {
@@ -16,6 +14,9 @@
             "configuration": {
                 "cookieDomain": "localhost"
             }
+        },
+        "layout": {
+            "headerPath" : "header.html"
         }
     }
 }
