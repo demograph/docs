@@ -21,7 +21,10 @@ Odin offers primitives that enable collaboration between any number of participa
 
 ### Security
 
-Odin is focused on enabling large-scale public interaction. As such, the primary security focus is protecting data integrity. Participants are allowed their own version of available data. Participants must have fine-grained control over what changes from other participants are incorporated. No other participant must be able to override this control. 
+Odin is focused on enabling large-scale public interaction. As such, the primary security focus is protecting data integrity.
+
+- Participants are allowed their own version of available data. Participants must have fine-grained control over what changes from other participants are incorporated. No other participant must be able to override this control.
+- Document types that include the author(s) in their occurrences should make such provenance data verifiable. This prevents impersonation.
 
 Although data-integrity of public interaction is the primary focus, Odin may offer some additional security mechanisms:
 
