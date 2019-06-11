@@ -3,7 +3,8 @@
         "uml",
         "github",
         "copy-code-button",
-        "ga"
+        "ga",
+        "mathjax"
     ],
     "pluginsConfig": {
         "github": {
