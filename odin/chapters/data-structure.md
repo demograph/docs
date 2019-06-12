@@ -9,7 +9,7 @@ This section describes the data-structures exposed by Odin.
     - Can always edit a copy, edits converge.
 - Partial replication
     - Subset of the namespace
-    - Projection of a topic
+    - Projection of a topic (should probably be solved at the computational model level)
 - Secure
     - Prevent impersonation
     - Enable privacy

@@ -17,3 +17,6 @@ _book/
 
 # VS Code history plugin
 .history
+
+# Don't need generated assets to be version tracked
+assets
