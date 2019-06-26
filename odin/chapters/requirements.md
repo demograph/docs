@@ -30,3 +30,7 @@ Although data-integrity of public interaction is the primary focus, Odin may off
 
 - Some public interactions benefit when anonymity is protected. Odin should incorporate mechanisms to protect anonymity, but not at the cost of data-integrity.
 - Some interactions should constrain who participates and how. Certain documents should be readable or writable by many, but not all. For maximal utility, Odin should offer the ability to limit participation for certain objects in this way.
+
+### Latency / Recency
+
+Odin should deliver 100% availability of data previously downloaded. Data _not_ locally available should be prefetched with a priority that correlates with your interest. Odin should use heuristics to estimate interest. Such heuristics may include sources such as frequency of access, duration of activation, or responsiveness to change alerts.
