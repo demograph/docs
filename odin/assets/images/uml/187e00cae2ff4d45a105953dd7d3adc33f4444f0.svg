@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="195px" preserveAspectRatio="none" style="width:470px;height:195px;" version="1.1" viewBox="0 0 470 195" width="470px" zoomAndPan="magnify"><defs><filter height="300%" id="fgk0akr169opd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster webapi--><polygon fill="#FFFFFF" filter="url(#fgk0akr169opd)" points="14,16,71,16,78,38.4883,448,38.4883,448,87,14,87,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="78" y1="38.4883" y2="38.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="18" y="31.5352">webapi</text><!--cluster node--><polygon fill="#FFFFFF" filter="url(#fgk0akr169opd)" points="228,112,269,112,276,134.4883,334,134.4883,334,183,228,183,228,112" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="228" x2="276" y1="134.4883" y2="134.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="232" y="127.5352">node</text><!--entity RestApi--><rect fill="#FEFECE" filter="url(#fgk0akr169opd)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="72" x="368" y="43"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="363" y="48"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="363" y="69.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="378" y="66.5352">RestApi</text><!--entity GraphQLApi--><rect fill="#FEFECE" filter="url(#fgk0akr169opd)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="229.5" y="43"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="224.5" y="48"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="224.5" y="69.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="239.5" y="66.5352">GraphQLApi</text><!--entity ReactiveWebsocketApi--><rect fill="#FEFECE" filter="url(#fgk0akr169opd)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="172" x="22" y="43"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="17" y="48"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="17" y="69.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="32" y="66.5352">ReactiveWebsocketApi</text><!--entity OdinNode--><rect fill="#FEFECE" filter="url(#fgk0akr169opd)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="236.5" y="139"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="231.5" y="144"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="231.5" y="165.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="246.5" y="162.5352">OdinNode</text><!--link RestApi to OdinNode--><path d="M380.8646,79.0569 C360.2937,95.1122 330.1881,118.6093 308.4143,135.6035 " fill="none" id="RestApi-OdinNode" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="304.4498,138.6977,314.0057,136.3134,308.3913,135.6213,309.0834,130.0069,304.4498,138.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--link GraphQLApi to OdinNode--><path d="M281,79.0569 C281,94.5126 281,116.8647 281,133.6731 " fill="none" id="GraphQLApi-OdinNode" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="281,138.6977,285,129.6977,281,133.6977,277,129.6977,281,138.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--link ReactiveWebsocketApi to OdinNode--><path d="M140.54,79.0569 C169.9265,95.3638 213.1473,119.3476 243.8728,136.3976 " fill="none" id="ReactiveWebsocketApi-OdinNode" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="248.3123,138.8612,242.3835,130.9968,243.9403,136.4352,238.5019,137.992,248.3123,138.8612" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+
+
+package webapi {
+    [RestApi]
+    [GraphQLApi]
+    [ReactiveWebsocketApi]
+}
+
+package node {
+    [OdinNode]
+}
+
+[RestApi] - -> [OdinNode]
+[GraphQLApi] - -> [OdinNode]
+[ReactiveWebsocketApi] - -> [OdinNode]
+
+
+@enduml
+
+PlantUML version 1.2018.14(Fri Dec 21 17:33:16 CET 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 9.0.4+11
+Operating System: Mac OS X
+OS Version: 10.14.5
+Default Encoding: UTF-8
+Language: en
+Country: NL
+--></g></svg>
